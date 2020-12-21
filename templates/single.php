@@ -92,8 +92,8 @@
 			   }
 		 
 		   // return $pub_fields_string;
-//	           echo '<HR><p></p><a href="/ses-publications/">Return to Publications</a>';
-			   echo '<HR><p></p><a href="#" onclick="window.history.go(-1); return false;">Return to Publications</a>';
+	           echo '<HR><p></p><a href="' . get_site_url() .'/publication/">Return to Publications</a>';
+			//    echo '<HR><p></p><a href="#" onclick="window.history.go(-1); return false;">Return to Publications</a>';
 	//		   echo '<p>SES Faculty Involved: ';
 			   
     // 	     if (! empty( $ses_author_list)){			
